@@ -3,11 +3,13 @@
 # Tarea-3-Calculadora
 Este repositorio contiene el código base para la tarea 3.
 
-{-//Elimina estas líneas de código en tu commit final
-La entrega de esta tarea es en equpos de a lo más dos integrantes.
+Integrante:
+Frias Dominguez Oscar Fernando
+314255662
+fernando_frias@ciencias.unam.mx
 
-Modifica este archivo para que cumpla los lineamientos de entraga de tareas del curso.
+Cambios al repositorio:
+Se agragaron los archivos NodoSeno.java, NodoCoseno.java, NodoTangente.java, NodoRaizC.java y se modifico la clase NodoOperador y Calculadora
 
-Asegurate de que este documento especifique los cambios al repositorio. Es decir qué archivos agregaste y cuáles modificaste.
-//Elimina estas lineas de código en tu commit final
--}
+Para probar se tienen que compilar todos los .java y luego ejecutar el archivo Calculadora.java
+
