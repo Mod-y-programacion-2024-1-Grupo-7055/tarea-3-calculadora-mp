@@ -20,7 +20,7 @@ public class Compilador {
      */
     public StringTokenizer analisisLexico(String cadena) {
         cadena = cadena.replace(" ", "");
-        StringTokenizer tokenizer = new StringTokenizer(cadena, "()\\+\\*\\-\\/", true);
+        StringTokenizer tokenizer = new StringTokenizer(cadena, "()\\+\\*\\-\\/\\raiz\\s\\c\\t", true);
         return tokenizer;
     }
 
