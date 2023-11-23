@@ -14,7 +14,7 @@ public class Calculadora {
      * @param args the command line arguments
      */
     public static void main(String[] args) throws ErrorDeSintaxisException {
-        String cadena = "(1r(4))*3--2";
+        String cadena = "(1r4)*3-(1s2)+4*(1t6)";
         comp= new Compilador();
         StringTokenizer lexemas = comp.analisisLexico(cadena);
         CompositeEA nodo = comp.arbolDeAnalisisSintactico(lexemas);
